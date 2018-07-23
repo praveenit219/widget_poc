@@ -187,6 +187,8 @@
                 if (!widgettrygainBtn) {
                     return;
                 }
+                var widgetResponse = document.querySelectorAll('.' + widgetinfo.widgetcls + ' .widgetresponse');
+                widgetResponse[0].style.display = "block";
                 var htmlParams = {
                     'widgetUrl': widgetTemplateURL[widgetinfo.widget],
                     'callback': submitCallback,
