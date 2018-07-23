@@ -211,7 +211,7 @@
 
         var css = ".apiwidgetContainer,.widgetResponse { margin:0.5em;float:left;width:100%;max-width:100%;padding:0.5em;}";
         css += ".widgetResponse { display:none; padding:0.5em;}";
-        css += ".apiwidgetContainer .widgetField { width:100%;float:left;margin:0 0 0.5em 0;}";
+        css += ".apiwidgetContainer .widgetField { width:95%;float:left;margin:0 0 0.5em 0;}";
         css += ".apiwidgetContainer label { width:20%;float:left;word-wrap:break-word;}";
         css += ".apiwidgetContainer select,.apiwidgetContainer input { width:auto;float:left;}";
         css += ".apiwidgetContainer input[type='submit'] { width:auto;float:left;}";
