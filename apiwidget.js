@@ -41,7 +41,7 @@
         travelFormTemplate += '</form>';
         travelFormTemplate += '</div>';
 
-    var custmerFormsTemplate = 'div class="apiwidgetContainer">';
+    var custmerFormsTemplate = '<div class="apiwidgetContainer">';
         custmerFormsTemplate += '<h4>Customer Forms</h4>';
         custmerFormsTemplate += '<p class="widgeterr" id="widgeterr">Please enter valid data to proceed.</p>';
         custmerFormsTemplate += '<form action="" name="CustomerForms">';
