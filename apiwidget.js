@@ -213,9 +213,10 @@
         css += ".widgetResponse { display:none; padding:0.5em;}";
         css += ".apiwidgetContainer .widgetField { width:100%;float:left;margin:0 0 0.5em 0;}";
         css += ".apiwidgetContainer label { width:20%;float:left;word-wrap:break-word;}";
-        css += ".apiwidgetContainer select,.apiwidgetContainer input { width:71%;float:left;}";
+        css += ".apiwidgetContainer select,.apiwidgetContainer input { width:auto;float:left;}";
         css += ".apiwidgetContainer input[type='submit'] { width:auto;float:left;}";
-        css += ".apiwidgetContainer input[type='date'] { width:35%;float:left; margin-right:5px;}";
+        css += ".apiwidgetContainer input[type='date'] { width:auto;float:left; margin-right:5px;}";
+        css += ".apiwidgetContainer input[type='button'] { width:auto;float:right;}";
         css += ".tryagin {margin:0.5em;}";
         css += ".widgeterr {display:none;padding:0.3em;background:#bd2624; color:#FFF; width:95%}";
         css += ".embedWidget { border:1px solid green; border-radius:5px; min-width:400px; float:left;max-width:550px; margin:0 1em 0 0;padding:0.5em;}";
