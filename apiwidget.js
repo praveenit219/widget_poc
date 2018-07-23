@@ -217,8 +217,8 @@
         css += ".apiwidgetContainer input[type='submit'] { width:auto;float:left;}";
         css += ".apiwidgetContainer input[type='date'] { width:35%;float:left; margin-right:5px;}";
         css += ".tryagin {margin:0.5em;}";
-        css += ".widgeterr {display:none;padding:0.3em;background:#bd2624; color:#FFF;}";
-        css += ".embedWidget { background : #FFF;border:1px solid green; border-radius:5px; min-width:400px; float:left;max-width:550px; margin:0 1em 0 0;padding:0.5em;}";
+        css += ".widgeterr {display:none;padding:0.3em;background:#bd2624; color:#FFF; width:95%}";
+        css += ".embedWidget { border:1px solid green; border-radius:5px; min-width:400px; float:left;max-width:550px; margin:0 1em 0 0;padding:0.5em;}";
 
         var style = document.createElement('style');
         style.type = 'text/css';
